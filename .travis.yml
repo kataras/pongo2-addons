@@ -7,6 +7,6 @@ go:
   - tip
 go_import_path: github.com/flosch/pongo2-addons/v4
 install:
-  - go get github.com/flosch/pongo2/v4
+  - go mod tidy
 script:
   - go test -v -covermode=count -coverprofile=coverage.out
