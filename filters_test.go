@@ -6,7 +6,7 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/flosch/pongo2"
+	"github.com/flosch/pongo2/v4"
 )
 
 // Hook up gocheck into the "go test" runner.

@@ -8,11 +8,11 @@ Official filter and tag add-ons for [pongo2](https://github.com/flosch/pongo2). 
 
 ## How to install and use
 
-Install via `go get -u github.com/flosch/pongo2-addons`. All dependencies will be automatically fetched and installed.
+Install via `go get -u github.com/flosch/pongo2-addons/v4`. All dependencies will be automatically fetched and installed.
 
 Simply add the following import line **after** importing pongo2:
 
-    _ "github.com/flosch/pongo2-addons"
+    _ "github.com/flosch/pongo2-addons/v4"
 
 All additional filters/tags will be registered automatically.
 
